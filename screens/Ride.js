@@ -232,7 +232,7 @@ export default class RideScreen extends Component {
               //onChangeText={() => this.setState({ userId: text })}
               //onChangeText={this.setState({ userId: text })}
               //onChangeText={text => this.setState({ userId: text })}
-              //onChangeText={(text) => this.setState({ userId: text })}
+            onChangeText={(text) => this.setState({ userId: text })}
 
               placeholder={"Id do Usuário"}
               placeholderTextColor={"#FFFFFF"}

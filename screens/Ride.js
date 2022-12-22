@@ -88,10 +88,10 @@ export default class RideScreen extends Component {
           //   SHORT
           // );
 
-          // ToastAndroid.show(
-          //   "Você alugou a bicicleta pela próxima 1 hora. Aproveite seu passeio!!",
-          //   ToastAndroid.SHORT
-          // );
+           ToastAndroid.show(
+             "Você alugou a bicicleta pela próxima 1 hora. Aproveite seu passeio!!",
+             ToastAndroid.SHORT
+           );
 
          // Alert.alert(
          //   "Você alugou a bicicleta pela próxima 1 hora. Aproveite seu passeio!!"
